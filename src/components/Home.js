@@ -28,7 +28,7 @@ function Home() {
           <h4 id='yellow'><strong>{writeUp}</strong></h4>
     
           <a href="https://www.linkedin.com/in/uzoma-maduakolam-b693aa250/" target='_blank' rel="noreferrer"><button id='hire'>Hire Me!</button></a>
-          <button id='resume'><a href='images/ResumeDev.pdf' download="Resume Uzoma Maduakolam" target='_blank'>Download Resume</a></button>
+          <button id='resume'><a href='images/UzomaMaduakolamResume.pdf' download="Resume Uzoma Maduakolam" target='_blank'>Download Resume</a></button>
       
           
 
