@@ -1,0 +1,471 @@
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+html{
+  scroll-behavior: smooth;
+}
+header{
+
+
+  padding: 5px;
+  margin-top: -30px;
+}
+body{ 
+  background: linear-gradient(to right,#101011, #310c5e );
+}
+.container{
+  
+
+}
+section{
+  height: 100vh;
+}
+
+#name{
+  color: white;
+  font-size : 45px;
+  margin-left: 70px;
+  margin-top: -45px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.myPicture{
+ 
+  margin-left: 50px;
+  border-radius: 80px;
+  object-fit: cover;
+  width: 30vw;
+  height: 58vh;
+  margin-right: 50px;
+}
+.containerHome{
+  
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: left ;
+  margin-top: 60px;
+  margin-left: 70px;
+ font-size:xx-large;
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+#yellow{
+  color:#f9d68a;
+  font-weight: bolder;
+  transition: 0.5s;
+}
+
+
+.socials {
+  display: flex;
+
+}
+.socials a{
+  margin-top: 30px;
+  margin-right: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.socials a:hover{
+transform: scale(1.5);
+color: #ffc300;
+transition: .5s;
+ 
+}
+
+#insta{
+  width: 3.0rem;
+  height: 3.0rem;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+
+
+
+#hire{
+  background-color: white;
+  color:#310c5e;
+  width: 130px;
+  border-radius: 7px;
+  padding: 2px;
+  margin-right: 10px;
+  margin-top: 20px;
+  font-weight: bolder;
+  height: 30px;
+  cursor: pointer;
+  border: black;
+
+}
+#resume{
+  background-color: white;
+  color: black;
+  width: 130px;
+  border: white;
+  border-radius: 7px;
+  padding: 2px;
+  font-weight: bolder;
+  height: 30px;
+  cursor: pointer;
+}
+#resume a{
+  color:#310c5e;
+  text-decoration: none;
+}
+
+
+/* NAV */
+
+
+.horizontal {
+display: flex;
+flex-direction: row;
+justify-content:right;
+align-items: center;
+background: linear-gradient(to right,#101011, #310c5e );
+box-shadow: 0 4px 8px 0 rgba(0,  0, 0, 0.2  ), 0 6px 20px 0 rgba(0  ,  0, 0, 0.19);
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+text-align: center;
+transition: all .5s ease-in-out;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+letter-spacing: 1px;
+padding-top: 20px;
+padding-bottom: 10px;
+
+}
+
+#nav {
+  
+  margin-right: auto;
+  margin-left: 610px;
+  margin-top: 150px;
+  font-size: x-large;
+  margin-bottom: 10;
+}
+
+#hireNav{
+  background: linear-gradient(to right,#3d176c, #160f1c );
+  display: inline-block;
+  color:white;
+  width: 100px;
+  height: 28px;
+  border-radius: 10px;
+  border: black;
+  cursor: pointer;
+  font-weight: bold;
+  font-size:  20px;
+  
+}
+#hireNav:hover {
+  transition: all .5s ease-in-out;
+  transform: scale(1.1) rotate(-5deg);
+  color: #f9d68a;
+}
+th {
+  
+  padding-right: 25px;
+}
+#nav a:hover{
+  color: #f9d68a;
+}
+
+#nav a{
+  color: white;
+}
+
+
+.home, .skills, .projects, .resume, .contact{
+  color: black;
+  text-decoration: none;
+}
+
+/* skills */
+
+.frontend, .backend {
+  background: linear-gradient(to right,#101011 , #471f7f);
+  width: fit-content;
+  height:fit-content;
+  font-size: xx-large;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  border-style: groove;
+  border-radius: 10px;
+  overflow: hidden;
+  color: burlywood;
+}
+
+
+.skills-list{
+  display: grid;
+}
+
+.skill-container{
+ display: flex;
+ flex-wrap: wrap;
+ flex-grow: 1;
+ gap: 20px;
+ justify-content: space-around;
+ align-items: center;
+}
+
+
+.frontend-icons, .backend-icons{
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns:  repeat(3, 1fr);
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.skillHead{
+  color: white;
+  text-align: center;
+  font-size: 5rem;
+  margin: 5rem 0;
+  text-decoration: underline;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+p{
+  color: white;
+  margin-top: -70px;
+  font-size: 2rem;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+
+}
+
+/* projects */
+
+
+
+.projectHead{
+  color: white;
+  text-align: center;
+  font-size: 5rem;
+  margin: 5rem 0;
+  text-decoration: underline;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+.project-icons{
+  display: grid;
+  flex-wrap: wrap;
+}
+
+.project-container{
+ display: flex;
+ flex-wrap: wrap;
+ flex-grow: 1;
+ gap: 20px;
+ justify-content: space-around;
+ align-items: center;
+  
+}
+
+.project-list{
+  margin-top: 140px;
+  display: grid;
+}
+
+.projects-title{
+  background: linear-gradient(to right,#101011 , #471f7f);
+  text-align: center;
+  width: 30vw;
+  height: 40vh;
+  font-size: xx-large;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  border-style: groove;
+  border-radius: 10px;
+  overflow: hidden;
+  color: burlywood;
+}
+
+.delivery{
+  width: 30vw;
+  height: 40vh;
+  object-fit: cover;
+}
+
+
+.projects-title :hover{
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all .5s ease-out;
+ 
+}
+
+@media screen and (max-width:960px){
+
+
+  .myPicture{
+    margin-left: 50px;
+    border-radius: 80px;
+    object-fit: cover;
+    width: 50vw;
+    height: 38vh;
+    margin-right: 50px;
+    margin-top: 60px;
+  }
+
+    .projects-title{
+      width: 80vw;
+      font-size: xx-large;
+      
+    }
+
+    
+
+    
+    .delivery{
+      width: 80vw;
+      object-fit: cover;
+        
+    }
+
+  .skills-list p{
+    margin-top: -13em;
+  }
+  .skill-container{
+    margin-top: -50em;
+  }
+}
+
+@media  screen and (max-width:720px) {
+
+  #name {
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  .horizontal{
+      flex-direction: column;
+        justify-content: center;
+        align-items:stretch;
+        text-align:center;
+        box-shadow: none;
+        position:fixed;
+        font-size: 10px;
+        padding-bottom: 6px;
+  }
+  #Nav{
+    padding-top: 5px;
+    margin-left: 20px;
+    gap: 10px;
+    display: grid;
+    grid-template-columns:  repeat(4, 1fr);
+   
+  }
+  
+  .myPicture{
+    border-radius: 100px;
+    width: 80vw;
+    height: 50vh;
+    margin-top: 40px;
+    margin-right: 50px;
+  }
+  
+  p{
+    font-size: 1.4rem;
+    margin-bottom: 30px;
+  }
+  
+  .containerHome {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px; /* Adjust margin as needed */
+    margin-left: 5px;
+    font-size: small;
+  }
+  #hire {
+    height: 30px;
+    font-size: small;
+    margin-top: 20px;
+  }
+ 
+  #git,
+  #insta,
+  #linkedin {
+  margin-top: 33px;
+  margin-right: 20px;
+  }
+  #git{
+    margin-top: 38px;
+  }
+
+ 
+
+  #hireNav {
+    width: 50px; 
+    height: 20px; 
+    font-size: 10px;
+  }
+
+  
+ .socials a{
+  font-size: xx-large;
+  margin-left: 20px ;
+  margin-right: 10px;
+ }
+ 
+ .frontend-icons, .backend-icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+ 
+ 
+}
+.skillHead{
+  font-size: 2.5rem;
+}
+
+#projects{
+scroll-margin-top: 100px;
+}
+
+
+.projectHead {
+  margin-top: 0;
+  font-size: 2.5rem;
+}
+.backend{
+margin-bottom: 20px;
+}
+
+.project-container{
+  
+  justify-content: space-around;
+  gap: 200;
+}
+.projects-title{
+ margin-bottom: 10px;
+  width: 100vw;
+  justify-content: space-around;
+}
+.project-icons{
+  display:flex;
+  
+}
+
+.project-list{
+  margin-top: 30em;
+}
+.delivery{
+  width: 100vw;
+  object-fit:fill;
+}
+
+.skills-list p{
+  margin-top: -2em;
+}
+.skill-container{
+  margin-top: 3em;
+}
+
+}
