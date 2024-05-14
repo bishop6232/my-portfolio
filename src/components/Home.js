@@ -40,7 +40,7 @@ function Home() {
 
         </div>
 
-        <img className='myPicture'  src="my-portfolio/images/portfolio.JPG" alt='uzoma'></img>
+        <img className='myPicture'  src="images/portfolio.JPG" alt='uzoma'></img>
 
       </div>
 
@@ -103,7 +103,7 @@ function Home() {
             <div className='projects-title'>Airways fast Delivery
 
               <div className='project-icons'>
-                <a  href='http://bishop6232.github.io/airways-delivery' target='_blank' rel="noreferrer"><img className='delivery' src='my-portfolio/images/delivery.png' alt=''></img></a>
+                <a  href='http://bishop6232.github.io/airways-delivery' target='_blank' rel="noreferrer"><img className='delivery' src='images/delivery.png' alt=''></img></a>
               </div>
 
             </div>
@@ -111,7 +111,7 @@ function Home() {
             <div className='projects-title'> AI knowledge hub
 
               <div className='project-icons'>
-                <a href='https://bishop6232.github.io/AI-Knowledge-Hub/' target='_blank' rel="noreferrer"><img className='delivery' src='my-portfolio/images/Ai.jpg' alt=''></img></a>
+                <a href='https://bishop6232.github.io/AI-Knowledge-Hub/' target='_blank' rel="noreferrer"><img className='delivery' src='images/Ai.jpg' alt=''></img></a>
               </div>
 
             </div>
