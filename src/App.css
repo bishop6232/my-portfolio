@@ -338,4 +338,8 @@ p {
     display: flex;
     flex-direction: column;
   }
+  #Nav{
+    font-size: 18px;
+    margin-left: 20px;
+  }
 }
