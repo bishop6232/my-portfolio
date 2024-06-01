@@ -27,6 +27,7 @@ section {
   color: white;
   font-size: 45px;
   margin-left: 70px;
+  margin-top: 80px;
 }
 
 .myPicture {
@@ -205,6 +206,7 @@ th {
 p {
   color: white;
   font-size: 2rem;
+  
 }
 
 /* projects */
@@ -247,6 +249,15 @@ p {
   opacity: 0.8;
   transition: all .5s ease-out;
 }
+.foodwise-project img{
+  width: 66%;
+}
+.ai-project img{
+  width: 100%;
+}
+.airways-project{
+  width: 90%;
+}
 
 @media screen and (max-width: 960px) {
   .myPicture {
@@ -262,6 +273,9 @@ p {
 
   .delivery {
     width: 90%;
+  }
+  .airways-project{
+    width: 100%;
   }
 }
 
@@ -299,7 +313,12 @@ p {
     font-size: 1.4rem;
     margin-bottom: 30px;
   }
-
+  .skills-list  p{
+    margin-top: -70px;
+  }
+  .project-list p{
+    margin-top: -50px;
+  }
   .containerHome {
     font-size: small;
     margin-left: 5px;

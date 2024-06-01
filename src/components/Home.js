@@ -99,10 +99,18 @@ function Home() {
           <p>These are some of my projects:</p>
           
           <div className='project-container'>
+
+            <div className='projects-title'>FoodWise
+
+              <div className='foodwise-project'>
+                <a  href='https://bishopuzoma86.wixsite.com/food-wise' target='_blank' rel="noreferrer"><img className='delivery' src='my-portfolio/images/Foodwise.png' alt=''></img></a>
+              </div>
+
+            </div>
   
             <div className='projects-title'>Airways fast Delivery
 
-              <div className='project-icons'>
+              <div className='airways-project' >
                 <a  href='http://bishop6232.github.io/airways-delivery' target='_blank' rel="noreferrer"><img className='delivery' src='my-portfolio/images/delivery.png' alt=''></img></a>
               </div>
 
@@ -110,7 +118,7 @@ function Home() {
 
             <div className='projects-title'> AI knowledge hub
 
-              <div className='project-icons'>
+              <div className='ai-project'>
                 <a href='https://bishop6232.github.io/AI-Knowledge-Hub/' target='_blank' rel="noreferrer"><img className='delivery' src='my-portfolio/images/Ai.jpg' alt=''></img></a>
               </div>
 
