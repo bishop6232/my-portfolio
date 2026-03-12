@@ -125,6 +125,7 @@ hr {
   display: flex;
   width: 100%;
   margin-bottom: 60px;
+  cursor: pointer;
 }
 
 
@@ -175,6 +176,57 @@ a {
   justify-content: center;
 }
 
+.overview-container {
+  padding: 20px;
+  background-color: rgb(49, 109, 88);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.responsibilities-container {
+  padding: 20px;
+  background-color: rgb(42, 75, 106);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.desmonstrated-container {
+  padding: 20px;
+  background-color: rgb(41, 85, 93);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+.technologies-container {
+  padding: 20px;
+  background-color: rgb(33, 19, 57);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+.challenge-container {
+  padding: 20px;
+  background-color: rgb(97, 72, 28);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+.my_role-container {
+  padding: 20px;
+  background-color: rgb(42, 75, 106);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+.what_i_did-container {
+  padding: 20px;
+  background-color: rgb(93, 53, 41);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
 /* Mobile adjustments */
 @media (max-width: 768px) {
 
