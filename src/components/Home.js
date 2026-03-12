@@ -137,7 +137,7 @@ function Home() {
     location: "İzmir (Izmir), Turkey",
     description: "In this Erasmus+ project, I collaborated with an international team to develop a game-based learning platform aimed at empowering individuals through interactive educational content. My role involved contributing to the design and development of the platform, ensuring it was engaging and effective for users.",
     challenges: "The main challenge was to create a game-based learning experience that was both educational and engaging for a diverse user base. We had to consider different learning styles, cultural backgrounds, and accessibility needs while designing the platform. Additionally, coordinating with an international team required effective communication.",
-    my_role: "As a team member in the project, I contributed to the design and development of the game-based learning platform. I participated in brainstorming sessions, helped design game mechanics that supported educational objectives, and collaborated with team members to ensure the platform was user-friendly and accessible. My role involved both creative input and technical support.",
+    my_role: "As a team member in the project, I contributed to the design and development of the game-based learning. I participated in brainstorming sessions, helped design game mechanics that supported educational objectives, and collaborated with team members to ensure the game was user-friendly. My role involved both creative input and technical support.",
     what_i_did: [
       "Collaborated with an international team to develop a game-based learning platform for the Erasmus+ project 'Empower: Me - I’m Game!'",
       "Participated in brainstorming sessions to generate ideas for game mechanics and educational content",
