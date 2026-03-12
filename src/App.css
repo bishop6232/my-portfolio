@@ -9,356 +9,313 @@ html {
 }
 
 body { 
-  background: linear-gradient(to right, #101011, #310c5e);
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: #101010;
+  font-family:'Courier New', Courier, monospace;
+  color: white;
 }
 
 header {
   padding: 5px;
+
 }
 
-section {
-  width: 100vw;
-  padding: 20px;
-  min-height: 100vh;
+hr {
+  border: 1px solid #736c6c;
 }
 
 #name {
-  color: white;
-  font-size: 45px;
-  margin-left: 70px;
-  margin-top: 80px;
+  font-size: 40px;
+  margin-top: 3rem;
+  margin-left: 5rem;
 }
-
-.myPicture {
-  border-radius: 50%;
-  object-fit: cover;
-  width: 280px;
-  height: 280px;
-  margin: 20px;
-}
-
-.containerHome {
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: left;
-  margin-top: 60px;
-  font-size: xx-large;
-}
-
-#yellow {
-  color: #f9d68a;
-  font-weight: bolder;
-  transition: 0.5s;
-}
-
-.socials {
-  display: flex;
-}
-
-.socials a {
-  margin-top: 30px;
-  margin-right: 20px;
-  color: white;
-  text-decoration: none;
-}
-
-.socials a:hover {
-  transform: scale(1.5);
-  color: #ffc300;
-  transition: .5s;
-}
-
-#hire {
-  background-color: white;
-  color: #310c5e;
-  width: 130px;
-  border-radius: 7px;
-  padding: 2px;
-  margin-right: 10px;
+#title {
+  font-size: 25px;
+  margin-left: 5rem;
   margin-top: 20px;
-  font-weight: bolder;
-  height: 30px;
-  cursor: pointer;
-  border: none;
+  margin-bottom: 1rem;
 }
 
-#resume {
-  background-color: white;
-  color: black;
-  width: 130px;
-  border: white;
-  border-radius: 7px;
-  padding: 2px;
-  font-weight: bolder;
-  height: 30px;
-  cursor: pointer;
-}
-
-#resume a {
-  color: #310c5e;
-  text-decoration: none;
-}
-
-/* NAV */
-.horizontal {
-  display: flex;
-  flex-direction: row;
-  justify-content: right;
-  align-items: center;
-  background: linear-gradient(to right, #101011, #310c5e);
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  text-align: center;
-  transition: all .5s ease-in-out;
-  letter-spacing: 1px;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  z-index: 1000;
-}
-
-#nav {
-  margin-right: auto;
-  margin-left: 610px;
-  font-size: x-large;
-}
-th {
-  
-  padding-right: 25px;
-}
-
-#hireNav {
-  background: linear-gradient(to right, #3d176c, #160f1c);
-  display: inline-block;
-  color: white;
-  width: 100px;
-  height: 28px;
+#profile-pic {
+  width: 200px;
+  margin-top: 2rem;
   border-radius: 10px;
-  cursor: pointer;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-#hireNav:hover {
-  transition: all .5s ease-in-out;
-  transform: scale(1.1) rotate(-5deg);
-  color: #f9d68a;
-}
-
-#nav a:hover {
-  color: #f9d68a;
-}
-
-#nav a {
-  color: white;
-}
-
-.home, .skills, .projects, .resume, .contact {
-  color: black;
-  text-decoration: none;
-}
-
-/* skills */
-.frontend, .backend {
-  background: linear-gradient(to right, #101011, #471f7f);
-  padding: 20px;
-  font-size: xx-large;
-  border-style: groove;
-  border-radius: 10px;
-  color: burlywood;
-  margin: 20px;
-  width: 100%;
-}
-
-.skills-list {
-  display: flex;
-  flex-direction: column;
-  
-}
-
-.skill-container {
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-  width: 90%;
-  justify-content: space-around;
-}
-
-.frontend-icons, .backend-icons {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
-
-.skillHead {
-  color: white;
-  text-align: center;
-  font-size: 5rem;
-  margin: 5rem 0;
-  text-decoration: underline;
-}
-
-p {
-  color: white;
-  font-size: 2rem;
-  
-}
-
-/* projects */
-.projectHead {
-  color: white;
-  text-align: center;
-  font-size: 5rem;
-  margin: 5rem 0;
-  text-decoration: underline;
-}
-
-.project-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  gap: 20px;
-  align-items: center;
-}
-
-.projects-title {
-  background: linear-gradient(to right, #101011, #471f7f);
-  text-align: center;
-  width: 30%;
-  font-size: xx-large;
-  border-style: groove;
-  border-radius: 10px;
-  color: burlywood;
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
-.delivery {
-  width: 100%;
-  height: auto;
   object-fit: cover;
+  object-position: top;
 }
 
-.projects-title:hover {
-  cursor: pointer;
-  opacity: 0.8;
-  transition: all .5s ease-out;
-}
-.foodwise-project img{
-  width: 66%;
-}
-.ai-project img{
+.about-me {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
   width: 100%;
+  margin-bottom: 80px;
 }
-.airways-project{
-  width: 90%;
+.introduction {
+  margin-top: 40px;
+  width: 50%;
+  margin-left: 3rem;
+  font-size: 15px;
+  justify-content: center;
+  background-color: rgb(41, 85, 93);
+  border-radius: 10px;
+  padding: 20px;
+}
+.contact {
+ 
+  margin-left: 8rem;
+  font-size: 30px;
+  margin-top: -15rem;
+  color: rgb(91, 188, 206);
+}
+.contact-info-container {
+  margin-left: -13rem;
+  display: grid;
+}
+.contact-info {
+  display: flex;          /* important */
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 50px;
+  margin-top: 20px;
+  font-size: 20px;
+  border-radius: 8px;
+  color: white;
+  background-color: rgb(41, 85, 93);
+  cursor: pointer;
+  text-decoration: underline 1px rgb(170, 170, 170);
 }
 
-@media screen and (max-width: 960px) {
-  .myPicture {
-    width: 230px;
-    height: 230px;
-    margin-top: 60px;
-  }
-
-  .projects-title {
-    width: 90%;
-    font-size: large;
-  }
-
-  .delivery {
-    width: 90%;
-  }
-  .airways-project{
-    width: 100%;
-  }
+#headings {
+  font-size: 30px;
+  margin-left: 5rem;
+  margin-top: 50px;
 }
 
-@media screen and (max-width: 720px) {
-  #name {
-    font-size: 20px;
-    margin-left: 5px;
-  }
+.education-container {
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 100%;
+  margin-bottom: 60px;
+}
 
-  .horizontal {
+.education-info {
+  margin-top: 20px;
+  width: 80%;
+  margin-left: 5rem;
+  font-size: 15px;
+  justify-content: center;
+  background-color: rgb(41, 85, 93);
+  border-radius: 10px;
+  padding: 20px;
+  padding-right: 100px;
+}
+
+
+#student-job-subtile {
+  font-size: 20px;
+  margin-left: 5rem;
+  margin-top: 20px;
+  color: rgb(91, 188, 206);
+}
+.work-experince-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+
+.job-container {
+  margin-top: 20px;
+  width: fit-content; 
+  margin-left: 5rem;
+  font-size: 15px;
+  background-color: rgb(41, 85, 93);
+  border-radius: 10px;
+  padding: 0; 
+  overflow: hidden; 
+  display: flex;
+  flex-direction: column; 
+}
+.company-logo {
+  width: 100%; 
+  height: 200px; /* adjust as needed */
+  object-fit: cover; 
+  object-position: center;
+  border-top-left-radius: 10px; 
+  border-top-right-radius: 10px;
+  
+}
+#job-title {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 15px;
+}
+
+#description {
+  font-size: 14px;
+  margin: 0 15px 15px 15px;
+ 
+}
+
+.footer-contact {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  justify-content: center;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+
+  .about-me {
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .introduction {
+    width: 90%;
+    margin-left: 0;
+    margin-top: 1rem;
+    font-size: 0.95rem;
+  }
+
+   .contact {
+    margin-left: 0;
+    margin-top: 1rem;
+    font-size: 1.5rem;
     text-align: center;
-    box-shadow: none;
-    padding-bottom: 6px;
   }
 
-  #nav {
-    padding-top: 5px;
-    margin-left: 20px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-  }
-
-  .myPicture {
-    width: 80vw;
-    height: 50vh;
-    margin-top: 40px;
-    margin-bottom: 20px;
-  }
-
-  p {
-    font-size: 1.4rem;
-    margin-bottom: 30px;
-  }
-  .skills-list  p{
-    margin-top: -70px;
-  }
-  .project-list p{
-    margin-top: -50px;
-  }
-  .containerHome {
-    font-size: small;
-    margin-left: 5px;
-  }
-
-  #hire {
-    font-size: small;
-  }
-
-  .frontend-icons, .backend-icons {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .skillHead {
-    font-size: 2.5rem;
-  }
-
-  .projectHead {
-    font-size: 2.5rem;
-  }
-
-  .projects-title {
+  /* Contact info buttons full width */
+  .contact-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    margin-left: 0;
     width: 100%;
   }
 
-  .delivery {
+  .contact-info {
     width: 100%;
+    font-size: 0.9rem;
   }
 
-  .project-container {
-    gap: 10px;
+  .footer-contact {
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    align-items: center;
+  }
+
+  #profile-pic {
+    width: 180px;
+    margin-top: 1rem;
+  }
+
+  #name {
+    font-size: 2rem;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  #title {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  #education {
+    font-size: 1.5rem;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  #headings {
+    font-size: 1.3rem;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .education-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
-  .skill-container{
-    display: flex;
+
+  .education-info {
+    width: 90%;
+    margin: 1rem auto;
+    padding-right: 20px;
+    font-size: 0.95rem;
+  }
+
+  /* stack work cards */
+  .work-experince-container {
     flex-direction: column;
+    align-items: center;
   }
-  #Nav{
-    font-size: 18px;
-    margin-left: 20px;
+
+  .job-container {
+    width: 90%;
+    margin-left: 0;
   }
+
+}
+
+@media (max-width: 480px) {
+
+  #name {
+    font-size: 1.5rem;
+  }
+
+  #title {
+    font-size: 1rem;
+  }
+
+  #profile-pic {
+    width: 150px;
+  }
+
+  #education {
+    font-size: 1.3rem;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  #headings {
+    font-size: 1.3rem;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .introduction,
+  .education-info {
+    width: 95%;
+    font-size: 0.85rem;
+    padding: 15px;
+  }
+
+  .contact-info {
+    width: 90%;
+    max-width: 260px;
+    font-size: 0.85rem;
+  }
+
+  .contact {
+    font-size: 1.2rem;
+  }
+
 }
