@@ -503,11 +503,11 @@ function Home() {
           </a>
 
           <a className='contact-info'
-            href="https://github.com/bishop6232"
+            href="mailto:uzomamaduakolam5@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            GitHub
+            Email
           </a>
 
           <a className='contact-info'
