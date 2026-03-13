@@ -192,7 +192,7 @@ function Home() {
           <hr
             style={{ width: '100%', marginTop: '10px', marginBottom: '10px' }}
           />
-          Hi, I’m Uzoma, a Software Engineering student based in Berlin with
+          Hi, I’m Uzoma, a Software Engineer based in Berlin with
           experience in web development, AI model training, and digital product
           development. I enjoy solving complex technical problems and building
           practical, user-focused solutions.
