@@ -179,7 +179,8 @@ function Home() {
       <hr style={{ marginLeft: '80px', marginRight: '80px' }} />
 
       <div className='about-me'>
-        <img
+        <img 
+          fetchPriority='high'
           src='/my-portfolio/images/profile.png'
           alt='uzoma'
           id='profile-pic'
